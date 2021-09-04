@@ -1,0 +1,211 @@
+#loading{
+ width: 80%;
+ height: 100vh;
+ background: #fff 
+ url('loadinggif.gif')
+	 no-repeat center center;	
+	z-index: 99999;
+}
+.loadtext{
+  text-align: center;
+  font-weight: bolder;
+}
+.one:hover{
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.two:hover{
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.three:hover{
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.dropdown:hover>.dropdown-menu{
+  display: block;
+}
+.hgfa{
+  border-radius: 25px;
+}
+
+.hgfa:hover{
+  width: 500px;
+  height: 200;
+}
+.aninav{
+    animation-name: aninav;
+    animation-duration:1.5s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-fill-mode:backwards;
+    border-radius: 10px;
+}
+@keyframes aninav {
+0%{
+background-color: rgb(194, 255, 166);
+}
+15%{
+background-color: rgb(255, 181, 181);
+}
+25%{
+background-color: rgb(255, 255, 255);
+}
+50%{
+background-color: rgb(0, 195, 255);
+}
+75%{
+background-color: rgb(197, 172, 255);
+}
+100%{
+background-color: rgb(255, 251, 193);
+}
+}
+.logbtn{
+  /* background-color: blueviolet; */
+  background-image: linear-gradient(#de6262 , #ffb88c);
+  border: solid brown;
+  color: #fff;
+  border-radius: 8px;
+  width: 110px;
+  height: 40px;
+}
+.textcol{
+    animation-name: textcol;
+    animation-duration:1.5s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-fill-mode:backwards;
+}
+@keyframes textcol {
+0%{
+color: brown;
+}
+15%{
+color: rgb(87, 1, 246);
+}
+25%{
+color: rgb(195, 0, 0);
+}
+50%{
+color:black;
+}
+75%{
+color: rgb(153, 43, 0);
+}
+100%{
+color: rgb(0, 21, 92);
+}
+}
+
+.mediatophone {
+    @media (max-width: 747px) {
+      position: relative;
+      left: -42px;
+    }
+  }
+  table {
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: bold;  
+    border-collapse: collapse;
+    text-align: center;
+    color: aliceblue;
+    width: 500px;
+    color: #000;
+    border: 0px;
+    background-color: white;
+  }
+  .center {
+    margin: auto;
+    width: 0px;
+  }
+  td, th {
+    text-align: center;
+    padding: 8px;
+    border: 0px;
+
+  }
+  
+  tr:nth-child(even) {
+    background-color: white;
+    color: #000;
+    border: 0px;
+
+  }
+   #bold{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+   }
+   .border{
+       border: 10px rgb(0, 0, 0);
+   }
+   #heading {
+    position: relative;
+    left: 35px;
+  }
+  body {font-family: Arial, Helvetica, sans-serif;}
+.loopcolani{
+    animation-name: loopcol;
+    animation-duration:1.5s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-fill-mode:backwards;
+  }
+  @keyframes loopcol {  
+  0%{
+  color: rgb(13, 255, 1);
+  }
+  15%{
+  color: rgb(87, 1, 246);
+  }
+  25%{
+  color: rgb(13, 255, 1);
+  }
+  50%{
+  color:rgb(87, 1, 246);
+  }
+  75%{
+  color: rgb(13, 255, 1);
+  }
+  100%{
+  color: rgb(87, 1, 246);
+  }
+  }
+  .modal {
+    display: none;
+    position: fixed; 
+    z-index: 35;
+    padding: 40px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 5px solid #888;
+    width: 80%;
+  }
+  .close {
+    color: #aaaaaa;
+    float: right;
+    margin-right: 1px;
+    font-size: 36px;
+    /* font-weight: bold; */    
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .itemimg{
+    width: 100px;
+    height: 60px;
+    margin-left: -75px;
+  }
