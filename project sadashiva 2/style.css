@@ -1,0 +1,407 @@
+/* Univarsal code which appleies to full html */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+  }
+/* Navigation bar css code */
+.navigation {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  transition: 2s;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav span {
+  font-size: 35px;
+  padding-top: 10px;
+}
+
+.nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 6px 0px;
+  font-size: 11px;
+}
+
+.nav ul li {
+list-style: none;
+font-family: var(--font2);
+text-decoration: none;
+}
+.nav ul li a {
+text-decoration: none;
+color: rgb(255, 255, 255);
+}
+.homepagevideo{
+  width: 100%;
+ height: auto;
+}
+/* dropdown button in navbar */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 804px;
+  /* top: 141px; */
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 200;
+    transition: 5s;
+    
+  }
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: var(--font1);
+    transition: 0.5s;
+  }
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    transition: 2s;
+  }
+  /* menu buttons like about sevices */
+    .menubtn{
+      border-radius: 6px;
+      margin-left: 4px;
+      border: none;
+      outline: none;
+      padding: 3px;
+      color: white;
+      font-family: var(--font2);
+      width: 56px;
+      height: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 6px;
+      transition: 0.3s;
+    }
+    .menubtn-conus{
+      border-radius: 6px;
+      border: none;
+      margin-left: 4px;
+      outline: none;
+      padding: 3px;
+      color: white;
+      font-family: var(--font2);
+      width: 71px;
+      height: 16px;
+      display: flex;
+      align-items: center;
+      transition: 0.3s;
+    }
+  .dropdown .dropbtn {
+    font-size: 11px;  
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    padding: 3px;
+    background-image: linear-gradient(#780206,#061161);
+    width: 61px;
+    height: 23px;
+    font-family: var(--font1); 
+    margin-left: 4px;
+    transition: 0.3s;
+  }
+  /* celebareting 75 years of sadashiva code below */
+  .yads{
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    font-size: 18px;
+  }
+  .yads span{
+    border-radius: 8px;
+    padding: 2px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+/* we in social icons in home page */
+.cardofsicon{
+  width: 228px;
+  height: 200px;
+  background-color: #ffffff;
+  margin: 17px;
+  border-radius: 17px;
+  box-shadow: 13px 12px 19px black;
+  transition: 0.2s;
+}
+.cardofsiconimgtop{
+  width: 90px;
+  height: 90px;
+  margin: 15px 0px 0px 73px;
+}
+.cardofsicon:hover{
+  width: 248px;
+  height: 220px;
+}
+.headingofcardofsicon{
+  margin-left: 75px;
+}
+.descofcardofsicons{
+  margin-left: 24px;
+  margin-top: 22px;
+}
+/* table in shopping page css code */
+table {
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  font-weight: bold;
+  color: aliceblue;
+  width: 500px;
+    color: #000;
+    border: 0px;
+    background-color: white;
+  }
+  .center {
+    margin: auto;
+    width: 0px;
+  }
+  td, th {
+    text-align: center;
+    padding: 4px;
+    border: 0px;
+  }
+  tr:nth-child(even) {
+    background-color: white;
+    color: #000;
+    border: 0px;}
+    tr td .btn{
+      border-radius: 20px;
+    }
+    tr td svg{
+      width: 15px;
+      height: 15px;
+      position: relative;
+      top: 4px;
+    }
+    /* items pictures in shopping page css code */
+    tr td .itemimg{
+      height: 60px;
+      margin-left: -25px;
+    }
+    /* about page */
+    /* css code for about page in web */
+    .container{
+      background-color: #34495e;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .card{
+      background-color: white;
+      width: 262px;
+      height: 412px;
+      border-radius: 9px;
+      margin: 41px;
+      box-shadow: 21px 24px 19px #000000;
+      text-align: center;
+      z-index: 35;
+      transition: 0.5s;
+    }
+    .cardimgtop{
+      width: 227px;
+      margin: 20px;
+      transition: 1s;
+      z-index: 100;
+}
+.headingofconofsicon{
+  text-align: center;
+  transition: 0.2s;
+  background-color: #a6ff88;
+}
+.conofsicon{
+  width: 100%;
+  height: 246;
+  background-color: #34495e;
+  display: flex;
+  flex-wrap: wrap;
+}
+.exploretxt{
+  text-align: center; 
+  margin-top: 5px; 
+  margin-bottom: 7px;
+  transition: 0.2s;
+}
+/* code for footer */
+footer{
+  background-color: #34495e;
+  height: 75px;
+  width: 100%; 
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footeritem{
+  color: white;
+  transition: 0.2s;
+}
+/* optional items */
+/* all media quarys */
+@media only screen and (max-width: 555px) {
+  .conofsicon{
+    height: 1190px;
+  }
+  /* .celetext{
+    animation-name: cel;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes cel{
+    0%{font-size: 11px;}
+    25%{font-size: 5px;}
+    50%{font-size: 11px;}
+    75%{font-size: 5px;}
+    100%{font-size: 11px;}
+  } */
+  .dropdown-content{
+    position: absolute;
+    left: 192px;
+    display: none;
+  }
+}
+@media only screen and (max-width: 344px) {
+  .dropdown-content{
+    position: absolute;
+    left: 0px;
+    display: none;
+  }
+}
+/* all hover effects to look better web */
+.dropdown .dropbtn:hover{
+  color: blue;
+  font-weight: bolder;
+  width: 85px;
+}
+.headingofconofsicon:hover{
+  font-size: 55px;
+}
+.exploretxt:hover{
+  font-size: 35px;
+  text-decoration: underline;
+}
+.card:hover{
+  width: 300px;
+  height: 450px;
+}
+.menubtn:hover{
+  color: chartreuse;
+  font-weight: bolder;
+  width: 85px;
+}
+.menubtn-conus:hover{
+  font-weight: bolder;
+  color: chartreuse;
+  width: 85px;
+}
+.dropdown .dropbtn:hover{
+  background-image: linear-gradient(#ff050e,#01fbff);
+}
+.dropdown-content a:hover {
+  background-color: #bd6418;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.footeritem:hover{
+  font-size: 25px;
+  color: rgb(13, 255, 0);
+}
+/* animations to look better web */
+  /* animation in navbar */
+  .aninav{
+    animation-name: aninav;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* animation-timing-function: ease-in-out; */
+    border-radius: 10px;
+  }
+  @keyframes aninav {
+    0%{background-image: linear-gradient(to top right, #c2e59c, #64b3f4 )}
+    25%{background-image: linear-gradient(to top right,#e53935,#e35d5b)}
+    50%{background-image: linear-gradient(to top right,#fc00ff,#00dbde)}
+    75%{background-image: linear-gradient(to top right,#004FF9,#FFF94C)}
+    100%{background-image: linear-gradient(to top right,#7b4397,#dc2430)}
+  }
+  /* animation of changing colours of heading in navbar  */
+  .textcol{
+    animation-name: textcol;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes textcol {
+    0%{color: rgb(255, 255, 255);}
+    15%{color: rgb(217, 1, 246);}
+    25%{color: rgb(255, 255, 255);}
+    50%{color:rgb(0, 229, 255);}
+    75%{color: rgb(255, 255, 255);}
+    100%{color: rgb(251, 255, 0);}
+  }
+  /* celebrating 75years of sadashiva text animation */
+  .celetext{
+    animation-name: cel;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes cel{
+    0%{font-size: 11px;}
+    25%{font-size: 5px;}
+    50%{font-size: 11px;}
+    75%{font-size: 5px;}
+    100%{font-size: 11px;}
+  }
+  /* utilites */
+  .font1{
+    font-family: var(--font1);
+  }
+  .font2{
+    font-family: var(--font2);
+  }
+  .img{
+    width: 100% ; 
+    height: auto; 
+    transition: 2s;
+    border-radius: 15px;
+  }
+  .svg{
+    width: 11px;
+    height: 11px;
+    transition: 2s;
+  }
+  .hr{
+    max-width: 95vw;
+    margin: auto;
+  }
+  /* code for fonts in whole html  */
+  @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+  :root { 
+    --main-bg-color: #bd6418;
+    --font1: 'DM Sans', sans-serif;
+    --font2: 'Nunito', sans-serif;
+  }
+  /* code for whatsapp icon in all pages of web */
+  .icon{
+    width: 35px;
+    height: 35px;
+  }
+  .whatsappicon{
+    position: fixed;
+    right: 10px;
+    bottom: 15px;
+  }
