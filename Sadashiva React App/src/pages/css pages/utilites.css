@@ -1,0 +1,63 @@
+/* animation in navbar */
+.aninav{
+    animation-name: aninav;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+  }
+  @keyframes aninav {
+    0%{background-image: linear-gradient(to top right, #c2e59c, #64b3f4 )}
+    25%{background-image: linear-gradient(to top right,#e53935,#e35d5b)}
+    50%{background-image: linear-gradient(to top right,#fc00ff,#00dbde)}
+    75%{background-image: linear-gradient(to top right,#004FF9,#FFF94C)}
+    100%{background-image: linear-gradient(to top right,#7b4397,#dc2430)}
+  }
+  /* animation of changing colours of heading in navbar  */
+  .textcol{
+    animation-name: textcol;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes textcol {
+    0%{color: rgb(255, 255, 255);}
+    15%{color: rgb(217, 1, 246);}
+    25%{color: rgb(255, 255, 255);}
+    50%{color:rgb(0, 229, 255);}
+    75%{color: rgb(255, 255, 255);}
+    100%{color: rgb(251, 255, 0);}
+  }
+  /* celebrating 75years of sadashiva text animation */
+  .celetext{
+    animation-name: cel;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes cel{
+    0%{font-size: 11px;}
+    25%{font-size: 5px;}
+    50%{font-size: 11px;}
+    75%{font-size: 5px;}
+    100%{font-size: 11px;}
+  }
+  @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+  :root { 
+    --font1: 'DM Sans', sans-serif;
+    --font2: 'Nunito', sans-serif;
+  }
+  .font1{
+    font-family: var(--font1);
+  }
+  .font2{
+    font-family: var(--font2);
+  }
+  /* code for whatsapp icon in all pages of web */
+  .icon{
+    width: 35px;
+    height: 35px;
+  }
+  .whatsappicon{
+    position: fixed;
+    right: 10px;
+    bottom: 15px;
+  }
