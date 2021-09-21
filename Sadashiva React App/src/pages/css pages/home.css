@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+}
+/* welcome image in home page */
+.home-img{
+    width: 100%;
+}
+/* we in social icons in home page */
+.sicon-card{
+    width: 228px;
+    height: 173px;
+    background-color: #ffffff;
+    margin: 17px;
+    border-radius: 17px;
+    box-shadow: 13px 12px 19px black;
+    transition: 0.2s;
+  }
+  .sicon-con-heading{
+    text-align: center;
+    transition: 0.2s;
+    background-color: #a6ff88;
+  }
+  .sicon-con{
+    width: 100%;
+    height: 246;
+    background-color: #34495e;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sicon-card-img{
+    width: 90px;
+    height: 90px;
+    margin: 8px 0px 0px 73px;
+  }
+  .sicon-card-heading{
+    margin-left: 75px;
+    margin-top: 8px;
+  }
+  .sicon-card-desc{
+    margin-left: 24px;
+  }
+  .yads-img{
+    width: 100%; 
+    height: auto; 
+    transition: 2s;
+  }
+    /* celebareting 75 years of sadashiva code below */
+    .yads{
+      display: flex;
+      justify-content: center;
+      font-family: fantasy;
+      font-size: 15px;
+      margin-bottom: 4px;
+    }
+    .yads span{
+      border-radius: 8px;
+      padding: 2px;
+      padding-left: 8px;
+    padding-right: 8px;
+  }
+  .sicon-con-heading:hover{
+    font-size: 55px;
+  }
+  .sicon-card:hover{
+    width: 248px;
+    height: 220px;
+  }
+  @media only screen and (max-width: 700px) {
+      .home-img:hover{
+         transform: rotate(90deg);
+         width: 100%;
+         height: 100%;
+      }
+    }

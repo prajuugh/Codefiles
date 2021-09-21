@@ -1,0 +1,17 @@
+  footer{
+    background-color: #34495e;
+    height: 75px;
+    width: 100%; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footeritem{
+    color: white;
+    transition: 0.2s;
+  }
+  .footeritem:hover{
+    font-size: 20px;
+    color: rgb(255, 120, 143);
+  }

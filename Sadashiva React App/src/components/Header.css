@@ -1,0 +1,186 @@
+/* Navigation bar css code */
+.navigation {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  transition: 2s;
+}
+.conoflogo{
+  display: flex;
+  flex-direction: row;
+}
+.heading1 {
+  margin: 0px 0px;
+  font-family: var(--font2);
+  transition: 0.4s;
+}
+.heading2 {
+  transition: 0.4s;
+  font-family: var(--font2);
+  margin: 0px 0px;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logoinhead {
+  font-size: 35px;
+  padding-top: 10px;
+  transition: 0.5s;
+  margin-right: 15px;
+}
+.nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 6px 0px;
+  font-size: 11px;
+}
+
+.nav ul li {
+  list-style: none;
+  font-family: var(--font2);
+  text-decoration: none;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+/* dropdown button in navbar */
+.droptt{
+  width: 5px;
+  height: 5px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 804px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 200;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-family: var(--font1);
+  transition: 0.5s;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+  transition: 2s;
+}
+/* menu buttons like about services */
+.menubtn {
+  border-radius: 6px;
+  margin-left: 4px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  background-image: linear-gradient(#780206, #061161);
+  color: white;
+  font-family: var(--font2);
+  width: 56px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.menubtn-conus {
+  border-radius: 6px;
+  border: none;
+  margin-left: 4px;
+  outline: none;
+  padding: 5px;
+  color: white;
+  background-image: linear-gradient(#780206, #061161);
+  font-family: var(--font2);
+  width: 85px;
+  height: 16px;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+  justify-content: center;
+  text-decoration: none;
+}
+.dropdown .dropbtn {
+  font-size: 11px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  background-image: linear-gradient(#780206, #061161);
+  width: 61px;
+  height: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font1);
+  margin-left: 4px;
+  transition: 0.3s;
+}
+.dropdown .dropbtn:hover {
+  color: blue;
+  font-weight: bolder;
+  width: 85px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.menubtn:hover {
+  color: chartreuse;
+  font-weight: bolder;
+  width: 85px;
+}
+.menubtn-conus:hover {
+  font-weight: bolder;
+  color: chartreuse;
+  width: 95px;
+}
+.dropdown .dropbtn:hover {
+  background-image: linear-gradient(#ff050e, #01fbff);
+}
+.heading1:hover {
+  font-size: 50px;
+}
+.logoinhead:hover {
+  width: 85px;
+  height: 85px;
+  transform: rotate(360deg);
+}
+.heading2:hover {
+  font-size: 50px;
+}
+@media only screen and (max-width: 690px) {
+  .dropdown-content {
+    position: absolute;
+    left: 270px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .dropdown-content {
+    position: absolute;
+    left: 8px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .dropdown-content {
+    position: absolute;
+    left: 545px;
+  }
+}

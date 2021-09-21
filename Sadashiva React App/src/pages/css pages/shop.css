@@ -1,0 +1,64 @@
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.container{
+    background-color: #34495e;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hr-card{
+    width: 60%;
+  }
+  .hr2-card{
+    width: 80%;
+  }
+  .card{
+    background-color: white;
+    width: 262px;
+    height: 280px;
+    border-radius: 9px;
+    margin: 41px;
+    box-shadow: 21px 24px 19px #000000;
+    text-align: center;
+    z-index: 35;
+    justify-content: center;
+    transition: 0.2s;
+    cursor: grab;
+  }
+  .cardimgtop{
+    width: 227px;
+    margin: 20px;
+    transition: 0.5s;
+    z-index: 100;
+  }
+    .adressincard{
+      background-color: #d1ffa4; 
+      color: #ff0505; 
+      font-weight: bolder;
+      text-decoration: none;
+      padding: 3px;
+      font-weight: bolder;
+      padding-top: 0.5px;
+    }
+    .card:hover .adressincard{
+      background-color: hsl(235, 100%, 50%); 
+      color: #2bff00; 
+      font-weight: bolder;
+      text-decoration: none;
+      padding: 3px;
+      font-weight: bolder;
+      padding-top: 0.5px;
+    }
+    
+    .card:hover{
+      width: 320px;
+      height: 300px;
+      background-color: rgb(147, 147, 147);
+    }
+    .card:hover .cardimgtop{
+      margin: 10px;
+      width: 90%;
+      transform: rotate(360deg);
+    }
