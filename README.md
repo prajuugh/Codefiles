@@ -1,16 +1,11 @@
-# Hiii I am Prajwal Patil From Bailhongal!!
-![Profile Photo is not available](https://avatars.githubusercontent.com/u/87030717?v=4)
+## Hiii I am Prajwal Patil KLE Tech first year
+
+I know C,C++,Python,Html and CSS
+And passionate and enthusiastic JAVA learner;
+
+See my first freelancing website created when I was in 9th std
+https://sadashivaprint.netlify.app/
 
 
-### First Project Is Simple Web Made by me {Click Below link to open web}:-
-[https://sadashivaprintingpress.000webhostapp.com/](https://sadashivaprintingpress.000webhostapp.com/)
+# Thank you for Visiting My github Profile
 
-### Second Project Is SPA[Single Page Application] by React {Click Below link to open web}:-
-[https://sadashiva2.000webhostapp.com/](https://sadashiva2.000webhostapp.com/)
-
-## After Completing Sadashiva Printing Press's React(Speed Application) I will host in Main Link
-[https://sadashivaprintingpress.000webhostapp.com/](https://sadashivaprintingpress.000webhostapp.com/)
-
-# Now I am pushing Incomplete(Inprogress) React App 
-
-# Thank U for Visiting My github Profile
