@@ -1,4 +1,4 @@
-## Hiii I am Prajwal Patil KLE Tech first year
+## Hiii I am Prajwal Patil KLE Tech first year CSE Student
 
 I know C,C++,Python,Html and CSS
 And passionate and enthusiastic JAVA learner;
